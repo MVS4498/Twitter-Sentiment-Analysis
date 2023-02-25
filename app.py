@@ -2,7 +2,7 @@
 """
 Created on Thu Dec  8 16:02:37 2022
 
-@author: Mayur @ Zelar
+@author: Mayur Shrotriya
 """
 #################### Basic Settings
 import streamlit as st
@@ -20,12 +20,11 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 ########
 
-c1,c2,c3 = st.columns([2,4,2], gap='large')
+# c1,c2,c3 = st.columns([2,4,2], gap='large')
 
-c1.image('Zelarsoft Logo.png', width=200)
-
-c2.markdown("<h1 style='text-align: center;'><font face='High Tower Text'> Twitter Sentiment Analysis </font></h1>", unsafe_allow_html=True)
-c2.markdown("<h3 style='text-align: center;'><font face='High Tower Text'> Zelarsoft Private Limited </font></h3>", unsafe_allow_html=True)
+# c2
+st.markdown("<h1 style='text-align: center;'><font face='High Tower Text'> Twitter Sentiment Analysis </font></h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: right; color: #ffd11a;'><font face='Brush Script MT' weight=5 size=5>-By Mayur Shrotriya</font></p>", unsafe_allow_html=True)
 
 st.markdown("***", unsafe_allow_html=True)
 
